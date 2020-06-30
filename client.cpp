@@ -13,7 +13,6 @@
 
 int main(int argc, char ** argv) { 
 	int sockfd;
-	socklen_t len;
 	char message[1024];
 	char acknowledge[1024];
 	struct sockaddr_in servaddr; 
